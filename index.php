@@ -1,7 +1,7 @@
 <pre>
 <?php
 	  require 'api.php';
-	  $new = file_get_contents(https://api.themoviedb.org/3/movie/550?api_key=8bef298921fc1c6d27f65ead0c07953c);
+	  $new = file_get_contents(https://api.themoviedb.org/3/movie/550?api_key='8bef298921fc1c6d27f65ead0c07953c');
 	  $new = json_decode($new,true);
 	  print_r($new);
 	  exit;
