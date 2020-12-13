@@ -1,8 +1,19 @@
+<pre>
+<?php
+	  require 'api.php';
+	  $new = file_get_contents(https://api.themoviedb.org/3/movie/550?api_key=8bef298921fc1c6d27f65ead0c07953c);
+	  $new = json_decode($new,true);
+	  print_r($new);
+	  exit;
+	
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Movies</title>
+	<!-- integrando la apikey -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
 	<!-- Link Swiper's CSS -->
